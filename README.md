@@ -1,19 +1,30 @@
 # ML-based Energy Efficiency Optimization for 5G Networks and Beyond
 
-This Streamlit app demonstrates the use of machine learning (ML) techniques for optimizing energy efficiency in 5G and future wireless networks. It covers:
+This Streamlit app demonstrates the use of machine learning (ML) techniques for optimizing energy efficiency in 5G and future wireless networks. It provides a secure, multi-page interface for:
 
-- Key challenges in energy consumption for 5G and beyond
-- ML algorithms for energy efficiency (supervised, reinforcement, deep learning)
-- A framework for dynamic power management and resource allocation
-- A simple ML demo for energy consumption prediction
-- Real-time inference using a large language model (Llama-3.1 via OpenAI API)
-- Future research directions
+- Data-driven energy consumption analysis and prediction
+- Interactive ML model training and visualization
+- Real-time AI-powered insights using Llama-3.1
+- Future research directions in 5G energy optimization
 
 ## Features
-- **Objective Overview**: Learn about the main challenges and ML solutions for energy efficiency in 5G.
-- **ML Demo**: Simulate energy consumption prediction using linear regression.
-- **Real-time Inference**: Ask questions to a state-of-the-art language model about energy efficiency.
-- **Future Directions**: Explore recommendations for advancing ML-based energy optimization.
+- **Secure User Authentication**: Login/Registration system with encrypted password storage
+- **Data Analysis & ML**: 
+  - CSV data upload and preprocessing
+  - Automated feature selection
+  - Linear regression model training
+  - Performance visualization with actual vs predicted plots
+- **Interactive AI Assistant**: Real-time Q&A about energy efficiency using Llama-3.1
+- **Modern UI/UX**:
+  - Responsive navigation sidebar
+  - User profile management
+  - Clean, professional styling
+- **Research Insights**:
+  - Future directions in federated learning
+  - Digital twins for network simulation
+  - Cross-layer ML approaches
+  - Applications of generative AI
+  - Quantum ML possibilities
 
 ## How to Run
 1. Install dependencies:
@@ -22,9 +33,11 @@ This Streamlit app demonstrates the use of machine learning (ML) techniques for 
    ```
 2. Run the Streamlit app:
    ```bash
-   streamlit run ml_energy_efficiency_5g.py
+   python -m streamlit run app.py
    ```
 
 ## Notes
-- The real-time inference uses the Llama-3.1 model via the KlusterAI API. The provided API key is for demonstration purposes only.
-- The ML demo uses simulated data for illustration. 
+- The real-time inference uses the API i created
+- User data is stored securely with SHA-256 password hashing
+- The ML demo supports any CSV dataset with numeric features
+- Visualizations include interactive scatter plots and performance metrics
