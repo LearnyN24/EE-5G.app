@@ -39,5 +39,5 @@ This Streamlit app demonstrates the use of machine learning (ML) techniques for 
 ## Notes
 - The real-time inference uses the API i created
 - User data is stored securely with SHA-256 password hashing
-- The ML demo supports any CSV dataset with numeric features
+- The ML  supports any CSV dataset with numeric features
 - Visualizations include interactive scatter plots and performance metrics
